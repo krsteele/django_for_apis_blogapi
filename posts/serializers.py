@@ -10,7 +10,7 @@ class PostSerializer(serializers.ModelSerializer):
         model = Post
 
 
-class UserSerialzer(serializers.ModelSerializer):
+class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = get_user_model()
